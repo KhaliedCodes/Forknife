@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33baa6e5e45fca4893a3d6123310cf8, type: 3}
+  m_Name: AudioClips
+  m_EditorClassIdentifier: 
+  audioCategories:
+  - category: SFX
+    audioClips:
+    - clipName: Gunshot
+      audioClip: {fileID: 8300000, guid: 66f36eae02ea51f499e4388e8acbffbb, type: 3}
+      volume: 1
+  - category: Music
+    audioClips:
+    - clipName: MainMenu
+      audioClip: {fileID: 8300000, guid: 1ad6afd1319e185469821a2913ada70b, type: 3}
+      volume: 0.11666667
